@@ -1,0 +1,184 @@
+#menu {
+    margin: auto;
+    padding: 140px 0 80px 0;
+}
+
+#menuContainer {
+    min-height: 400px;
+    margin: auto;
+    max-width: 73rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+
+    background-color: white;
+
+    padding: 6rem 1rem;
+
+    background-color: white;
+
+    @media (min-width: 768px) {
+        padding: 6rem;
+    }
+
+    .decoration {
+        height: 30px;
+        width: 100%;
+
+        margin-bottom: 60px;
+
+        background-repeat: repeat;
+        background-image: url("../images/decoration.png");
+        background-size: 32px;
+
+        position: absolute;
+        top: 30px;
+        left: 0;
+
+
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+    }
+
+    .shadow {
+        position: absolute;
+        top: -1rem;
+        left: 0rem;
+
+        z-index: -1;
+
+        height: 10rem;
+        width: 100%;
+
+        background-color: $secondary;
+        opacity: 0.9;
+
+        @media (min-width: 768px) {
+            left: calc(50%);
+            width: calc(50% + 1rem);
+        }
+    }
+
+    h1 {
+        color: $dark;
+    }
+
+    #menuCategory {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            border-top: 2px solid $dark;
+            border-bottom: 2px solid $dark;
+            color: $dark;
+            text-align: start;
+            padding: 1rem 0 1rem 0;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .foodList {
+            display: flex;
+            flex-direction: column;
+            padding: 0; //
+
+            .food {
+                margin: 2rem 0 2rem 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                @media (min-width: 768px) {
+                    flex-direction: row;
+                }
+
+                .foodImg {
+                    height: auto;
+
+                    width: 80%;
+
+                    @media (min-width: 768px) {
+                        margin-right: 1rem;
+                        height: 120px;
+                        width: auto;
+                    }
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+
+                        @media (min-width: 768px) {
+                            width: auto;
+                        }
+                    }
+
+                }
+
+                .foodInfo {
+
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    @media (min-width: 768px) {
+                        width: 100%;
+                    }
+
+
+                    .mainInfo {
+                        display: flex;
+                        flex-direction: column;
+
+                        justify-content: space-between;
+                        align-items: baseline;
+                        gap: 1rem;
+
+                        color: $dark;
+
+                        @media (min-width: 768px) {
+                            flex-direction: row;
+                        }
+
+                        .name {
+                            font-weight: 200;
+                            letter-spacing: 0.1rem;
+                            flex: 0 0 auto;
+                        }
+
+                        .dotedLine {
+                            border-bottom: 1px dotted $dark;
+                            width: 100%;
+                        }
+                    }
+
+                    p {
+                        width: 100%;
+                        margin: 0.5rem 0;
+                        text-align: start;
+                    }
+
+                    h4 {
+                        color: white;
+                        background-color: $secondary;
+                        align-self: start;
+                        letter-spacing: 0.2rem;
+                        font-weight: 200;
+                        text-shadow: 0 0 4px $primary;
+                        text-align: center;
+                        padding: 0.1rem 0.3rem;
+                    }
+
+                    .no-Opacity {
+                        opacity: 0;
+                    }
+                }
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+[
+    {"categoria":"entradas", "items":[{"nombre":"Falafel","precio":1049,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true},
+    {"nombre":"Stuffed Vine Leaves","precio":1549,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true},
+    {"nombre":"Roasted Eggplants","precio":899,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": false},
+    {"nombre":"Homemade Hummus","precio":899,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true}]},
+    
+    {"categoria":"principal", "items":[{"nombre":"Chicken Shish Kebab with Veggies","precio":500,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true},
+    {"nombre":"Doner Kebab in Pita Bread","precio":900,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true},
+    {"nombre":"Beef Steak with Black Pepper Sauce","precio":1200,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": false}]},
+    
+    {"categoria":"postres", "items":[{"nombre":"Icecream","precio":250,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true},
+    {"nombre":"Brownie","precio":250,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": false},
+    {"nombre":"Chocolatte volcano","precio":250,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": false}]} 
+]

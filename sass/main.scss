@@ -1,0 +1,22 @@
+////Fonts////
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Nunito+Sans&display=swap');
+////Custom styles for bootstrap////
+
+$primary:       #004440;
+$secondary:     #0bdc80;
+$dark:          #8b7346;
+$light:         #f7f3eb;
+
+///////Imports the original bootstrap styles////////
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './global';
+@import './navBar';
+@import './bannerSection';
+@import './info';
+@import './reservations';
+@import './newsletter';
+@import './igPics';
+@import './footer';
+@import './menu';
+
+

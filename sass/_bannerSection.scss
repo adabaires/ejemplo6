@@ -1,0 +1,115 @@
+#bannerSection{
+    height: auto;
+
+    padding: 40px 0 40px 0;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: center;
+
+    
+    @media (min-width: 768px) {
+        height: 50vh;
+         flex-direction:row;
+    }
+    .banner{
+        background-color: white;
+    
+        min-width: 30vw;
+        padding: 65px 0 40px 0;
+
+        position:relative;
+
+        .decoration{
+            height: 30px;
+            width: 100%;
+
+            margin-bottom: 60px;
+        
+            background-repeat: repeat;
+            background-image: url("../images/decoration.png");
+            background-size: 32px;
+        }
+        
+        .shadow{
+            position:absolute;
+            top: 2.3rem;
+            left: 0rem;
+
+            z-index: -1;
+
+            height: 100%;
+            width: 100%;
+        
+            background-color: $secondary;
+            opacity: 0.9;
+
+            @media (min-width: 768px) {
+                left: 2.5rem;
+            }
+        }
+
+        .bannerText{
+            max-width: 90%;
+            margin: auto;
+            padding: 0 20px;
+            h1{
+                margin-left: 2rem;
+                width: 70%;
+            }
+
+            
+
+            @media (min-width: 768px) {
+                padding: 0 0 0 60px;
+                padding-left: 60px;
+            }
+    
+            .bannerInfo{
+                display: flex;
+                column-gap: 2rem;
+    
+                margin: 0 2rem 0 2rem;
+    
+                align-items: center;
+                justify-content: space-between;
+                
+                p{
+                    width: auto;
+                    margin:0;
+                }
+            
+                img{
+                    width: 120px;
+                }
+            }
+        }
+    }
+    
+    .carousel{
+        height: auto;
+        overflow: hidden;
+
+        transform: translateY(0rem);//translateY(1.15rem);
+
+        @media (min-width: 768px) {
+            height: 500px;
+            transform: translateY(0rem);
+        }
+        img{
+            height: auto;
+            width: 100%;
+
+            @media (min-width: 768px) {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}
+
