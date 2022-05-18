@@ -14,7 +14,7 @@
 
     
     @media (min-width:$mid-screen) {
-        height: 50vh;
+        height: 600px;
          flex-direction:row;
     }
     .banner{
@@ -57,6 +57,7 @@
 
             @media (min-width:$mid-screen) {
                 left: 2.5rem;
+                width: 180%;
             }
         }
 

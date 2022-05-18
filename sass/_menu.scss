@@ -18,9 +18,14 @@
     padding: 6rem 1rem;
 
     background-color: white;
+    @media (min-width:$small-screen) {
+        width: 80%;
+    }
 
     @media (min-width:$mid-screen) {
         padding: 6rem;
+
+
     }
 
     .decoration {
@@ -97,8 +102,13 @@
 
                 .foodImg {
                     height: auto;
-
                     width: 80%;
+
+                    @media (min-width:$small-screen) {
+                        height: auto;
+                        width: 50%;
+                    }
+
 
                     @media (min-width:$mid-screen) {
                         margin-right: 1rem;
@@ -124,7 +134,13 @@
                     flex-direction: column;
                     justify-content: space-between;
 
+                    @media (min-width:$small-screen) {
+                        margin-top: 1rem;
+                        width: 50%;
+                    }
+
                     @media (min-width:$mid-screen) {
+                        margin-top: 0;
                         width: 100%;
                     }
 
