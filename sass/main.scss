@@ -7,6 +7,9 @@ $secondary:     #0bdc80;
 $dark:          #8b7346;
 $light:         #f7f3eb;
 
+$small-screen: 768px;
+$mid-screen: 1100px;
+
 ///////Imports the original bootstrap styles////////
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import './global';

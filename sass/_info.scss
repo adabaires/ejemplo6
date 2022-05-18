@@ -16,7 +16,7 @@
 
     background-color: white;
 
-    @media (min-width: 768px) {
+    @media (min-width:$mid-screen) {
         flex-direction: row;
     }
     .shadow{
@@ -31,7 +31,7 @@
         background-color: $secondary;
         opacity: 0.9;
         
-        @media (min-width: 768px) {
+        @media (min-width:$mid-screen) {
             left: calc(50% + 2.5rem);
             width: 50%;
         }

@@ -25,7 +25,7 @@
         justify-content: center;
 
         width: 80%;
-        @media (min-width: 768px) {
+        @media (min-width:$mid-screen) {
             width: 35%;
         }
 
@@ -41,7 +41,7 @@
             height: auto;
             margin-top: 8px;
 
-            @media (min-width: 768px) {
+            @media (min-width:$mid-screen) {
                 flex-direction: row;
                 gap: 8px;
             }
@@ -54,7 +54,7 @@
 
             padding: 0 5px;
            
-            @media (min-width: 768px) {
+            @media (min-width:$mid-screen) {
                 flex: 2;
             }
         }
@@ -66,7 +66,7 @@
             background-color: $dark;
             color: white;
 
-            @media (min-width: 768px) {
+            @media (min-width:$mid-screen) {
                 flex: 1;
             }
 

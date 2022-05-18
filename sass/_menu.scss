@@ -19,7 +19,7 @@
 
     background-color: white;
 
-    @media (min-width: 768px) {
+    @media (min-width:$mid-screen) {
         padding: 6rem;
     }
 
@@ -38,7 +38,7 @@
         left: 0;
 
 
-        @media (min-width: 768px) {
+        @media (min-width:$mid-screen) {
             width: 50%;
         }
     }
@@ -56,7 +56,7 @@
         background-color: $secondary;
         opacity: 0.9;
 
-        @media (min-width: 768px) {
+        @media (min-width:$mid-screen) {
             left: calc(50%);
             width: calc(50% + 1rem);
         }
@@ -91,7 +91,7 @@
                 flex-direction: column;
                 align-items: center;
 
-                @media (min-width: 768px) {
+                @media (min-width:$mid-screen) {
                     flex-direction: row;
                 }
 
@@ -100,7 +100,7 @@
 
                     width: 80%;
 
-                    @media (min-width: 768px) {
+                    @media (min-width:$mid-screen) {
                         margin-right: 1rem;
                         height: 120px;
                         width: auto;
@@ -110,7 +110,7 @@
                         height: 100%;
                         width: 100%;
 
-                        @media (min-width: 768px) {
+                        @media (min-width:$mid-screen) {
                             width: auto;
                         }
                     }
@@ -124,7 +124,7 @@
                     flex-direction: column;
                     justify-content: space-between;
 
-                    @media (min-width: 768px) {
+                    @media (min-width:$mid-screen) {
                         width: 100%;
                     }
 
@@ -139,7 +139,7 @@
 
                         color: $dark;
 
-                        @media (min-width: 768px) {
+                        @media (min-width:$mid-screen) {
                             flex-direction: row;
                         }
 
