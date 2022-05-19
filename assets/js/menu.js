@@ -1,4 +1,4 @@
-fetch('../../menu.json')
+fetch('menu.json')
 .then((resp) => resp.json())
 .then((data) => {
     const menu = [...data];
@@ -49,23 +49,3 @@ fetch('../../menu.json')
         });
     });
 });
-
-
-/* <div class="menuCategory">
-    <h2>CATEGORY</h2>
-
-    <ul class="foodList">
-        <li class="food">
-            <div class="foodImg"><img src="./assets/images/Falafel.png" alt=""></div>
-            <div class="foodInfo">
-                <div class="mainInfo">
-                    <h3 class="name">Falafel</h3>
-                    <div class="dotedLine"></div>
-                    <h3 class="price">$9.99</h3>
-                </div>
-                <p>This is an item on your menu. Give your item a brief description</p>
-                <h4>VEGAN</h4>
-            </div>
-        </li>
-    </ul>
-</div> */

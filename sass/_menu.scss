@@ -18,9 +18,6 @@
     padding: 6rem 1rem;
 
     background-color: white;
-    @media (min-width:$small-screen) {
-        width: 80%;
-    }
 
     @media (min-width:$mid-screen) {
         padding: 6rem;
