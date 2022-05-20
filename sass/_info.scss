@@ -49,6 +49,11 @@
         p{
             font-size: 1rem;
             max-width: 300px;
+
+            .bold{
+                font-weight: bold;
+            }
+            
         }
         padding: 50px;
     }

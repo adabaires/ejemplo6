@@ -11,4 +11,5 @@
     {"categoria":"postres", "items":[{"nombre":"Icecream","precio":250,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": true},
     {"nombre":"Brownie","precio":250,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": false},
     {"nombre":"Chocolatte volcano","precio":250,"descripcion":"This is an item on your menu. Give your item a brief description","img":"assets/images/Falafel.png", "isVegan": false}]} 
+
 ]

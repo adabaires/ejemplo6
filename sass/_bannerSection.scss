@@ -57,7 +57,7 @@
 
             @media (min-width:$mid-screen) {
                 left: 2.5rem;
-                width: 180%;
+                width: 175%;
             }
         }
 
@@ -100,11 +100,13 @@
     
     .carousel{
         height: auto;
+        width: 100%;
         overflow: hidden;
 
         transform: translateY(0rem);//translateY(1.15rem);
 
         @media (min-width:$mid-screen) {
+            width: auto;
             height: 500px;
             transform: translateY(0rem);
         }

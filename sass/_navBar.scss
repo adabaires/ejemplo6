@@ -38,11 +38,11 @@ header {
 
         .socials {
             flex: 1;
-            display: none;
+            // display: none;
 
-            @media (min-width:$mid-screen) {
-                display:block;
-            }
+            // @media (min-width:$mid-screen) {
+            //     display:block;
+            // }
             ul {
                 justify-content: start;
                 padding-left: 0rem;
@@ -61,7 +61,12 @@ header {
         }
 
         .links {
-            flex: 1;
+            flex: 2;
+
+            @media (min-width:$mid-screen){
+                flex: 1;
+            } 
+
 
             li {
                 padding: 0px 10px;
